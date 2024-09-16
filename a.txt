@@ -1,0 +1,5 @@
+plot_list=word_counts[["history", "business", "computer science", "cs", "computer"]]
+plt.figure(figsize=(20,10))
+plt.bar(plot_list.index, plot_list.values)
+plt.xticks(rotation=45)
+plt.show()
